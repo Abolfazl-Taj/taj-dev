@@ -1,0 +1,88 @@
+@keyframes root{
+    100%{transform: rotate(360deg)}
+}
+.Skills{
+    background: url(../../Assets/Pic/BlackWhole.jpg);
+    @apply w-full h-[629.2px] flex justify-center;
+    background-blend-mode: lighten;
+}
+.midle{
+    position: relative;
+ @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-around items-center rounded;
+ backdrop-filter: blur(16px) saturate(180%);
+ background-color: rgba(0, 0, 0, 0.45);
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.skil{
+    @apply flex flex-col justify-center items-center
+}
+.skill-header{
+    z-index: 5000;
+    @apply font-black text-center text-[25px] 
+}
+.Skills i{
+    @apply font-bold  text-[50px];
+}
+.fa-js,
+.fa-html5,
+.fa-css3,
+.fa-react{
+    position:  relative;
+ @apply    flex justify-center items-center rounded-full w-[100px] h-[100px] shadow-2xl shadow-[#222];
+}
+.fa-js{
+    @apply bg-yellow-500 text-[#111] 
+}
+.fa-html5{
+    @apply bg-orange-500 text-[#fff] 
+}
+.fa-css3{
+    @apply bg-sky-500 text-[#fff] 
+}
+.fa-react{
+    @apply text-sky-500 bg-[#111]   
+}
+.darsad{
+    position: absolute;
+    animation:  root 3s infinite  linear ;
+  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
+}
+.darsad::after{
+    content: "";
+    position: absolute;
+    @apply w-[40px] h-[40px] bg-yellow-500 rounded-full 
+}
+.darsad1{
+    position: absolute;
+    animation:  root 4s infinite  linear ;
+  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
+}
+.darsad1::after{
+    content: "";
+    position: absolute;
+    @apply w-[40px] h-[40px] bg-orange-500 rounded-full 
+}
+.darsad2{
+    position: absolute;
+    animation:  root 5s infinite  linear ;
+  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
+}
+.darsad2::after{
+    content: "";
+    position: absolute;
+    @apply w-[40px] h-[40px] bg-white rounded-full 
+}
+
+
+.darsad3{
+    position: absolute;
+    animation:  root 2s infinite  linear ;
+  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
+}
+.darsad3::after{
+    content: "";
+    position: absolute;
+    @apply w-[40px] h-[40px] bg-blue-500 rounded-full 
+}
+
+

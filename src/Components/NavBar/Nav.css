@@ -1,0 +1,22 @@
+/* /////////////////Young Serif ////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* /////////////////Young Serif ////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap');
+.nav{
+ @apply w-full flex items-center rounded p-2 text-[#a1a1a1] mt-[0.25rem] fixed  mx-[20px] ;
+ backdrop-filter: blur(12px) saturate(55%);
+ background-color: rgba(61, 61, 61, 0.42);
+ border-radius: 12px;
+ border: 1px solid rgba(255, 255, 255, 0.125);
+ z-index:50;
+}
+
+.links{
+    font-family: 'Young Serif', serif;
+    @apply font-bold mx-[1rem] p-[0.25rem]
+}
+.active{
+    font-family: 'Kanit', sans-serif;
+    @apply text-[#080808] font-black border-t border-[#ff6b6b];
+    scale: 1.5;
+}

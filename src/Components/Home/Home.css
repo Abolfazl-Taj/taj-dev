@@ -1,0 +1,15 @@
+.home{
+    background: url(../../Assets/Pic/BlackWhole.jpg);
+    @apply w-full h-[629.2px] flex justify-center;
+    background-blend-mode: lighten;
+}
+.midle{
+ @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-around items-center rounded;
+ backdrop-filter: blur(16px) saturate(180%);
+ background-color: rgba(0, 0, 0, 0.45);
+
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.me{
+    @apply font-bold font-serif text-[30px] bg-[#00000069] p-1 rounded border shadow-2xl shadow-[#fff] w-[343px] h-[55px];
+}

@@ -1,0 +1,6 @@
+body{
+  @apply bg-[#1a1a1a] text-[#c2c2c2]
+}
+::selection {
+@apply bg-[#7e7e7e] text-[#111] rounded
+}

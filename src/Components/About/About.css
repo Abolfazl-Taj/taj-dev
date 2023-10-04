@@ -1,0 +1,30 @@
+@font-face{
+    font-family : english ;
+    src: url(../../Assets/Fonts/Lalezar-Regular.ttf)
+
+}
+.About{
+    background: url(../../Assets/Pic/BlackWhole.jpg);
+    @apply w-full h-[629.2px] flex justify-center;
+    background-blend-mode: lighten;
+}
+.midle{
+    position: relative;
+ @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-around items-center rounded;
+ backdrop-filter: blur(16px) saturate(180%);
+ background-color: rgba(0, 0, 0, 0.45);
+ border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.about-des{
+    font-family : english ;
+ @apply w-1/2 h-[420px] text-justify text-[16px]  text-[#c2c2c2] bg-[#c2c2c27c] rounded p-1 mx-[10px]  border-double	border-[32px] border-[#0000008d] ;
+ line-height: 30px;
+}
+.mypic{
+    backgroun-color: black;
+    @apply w-[400px] h-[400px] rounded-full ;
+    filter: grayscale(100%);
+}
+.about-des h1{
+    @apply mx-[25px] my-[1rem]
+}

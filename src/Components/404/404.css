@@ -1,0 +1,10 @@
+.notfound{
+ @apply w-[100%] flex justify-center items-center flex-col
+}
+.not-header{
+    @apply bg-[#111] text-[#fff] p-2 rounded
+}
+.notb{
+  @apply bg-[#fff] text-[#111] rounded  my-[0.5rem] w-full text-center text-[20px] fixed;
+  bottom: 0;  
+}
