@@ -28,20 +28,9 @@
 .fa-css3,
 .fa-react{
     position:  relative;
- @apply    flex justify-center items-center rounded-full w-[100px] h-[100px] shadow-2xl shadow-[#222];
+ @apply    flex justify-center items-center rounded-full w-[100px] h-[100px] shadow-2xl shadow-[#222] bg-[#111] text-[#555];
 }
-.fa-js{
-    @apply bg-yellow-500 text-[#111] 
-}
-.fa-html5{
-    @apply bg-orange-500 text-[#fff] 
-}
-.fa-css3{
-    @apply bg-sky-500 text-[#fff] 
-}
-.fa-react{
-    @apply text-sky-500 bg-[#111]   
-}
+
 .darsad{
     position: absolute;
     animation:  root 3s infinite  linear ;
@@ -50,28 +39,9 @@
 .darsad::after{
     content: "";
     position: absolute;
-    @apply w-[40px] h-[40px] bg-yellow-500 rounded-full 
+    @apply w-[40px] h-[40px] bg-[#555] rounded-full 
 }
-.darsad1{
-    position: absolute;
-    animation:  root 4s infinite  linear ;
-  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
-}
-.darsad1::after{
-    content: "";
-    position: absolute;
-    @apply w-[40px] h-[40px] bg-orange-500 rounded-full 
-}
-.darsad2{
-    position: absolute;
-    animation:  root 5s infinite  linear ;
-  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
-}
-.darsad2::after{
-    content: "";
-    position: absolute;
-    @apply w-[40px] h-[40px] bg-white rounded-full 
-}
+
 
 
 .darsad3{

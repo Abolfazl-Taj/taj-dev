@@ -9,12 +9,12 @@ function Skills(){
 
 <div className="skil">  <h1 className="skill-header">100%</h1>            <i class="fa-brands fa-html5">
 
-<div className="darsad1"></div>
+<div className="darsad"></div>
 
 </i></div>
 <div className="skil">   <h1 className="skill-header">100% & Tailwind</h1>          <i class="fa-brands fa-css3">
 
-<div className="darsad2"></div>
+<div className="darsad"></div>
 
 </i></div>
 <div className="skil"> <h1 className="skill-header">87%</h1>
@@ -26,7 +26,7 @@ function Skills(){
 </i></div>
 <div className="skil">   <h1 className="skill-header">???%</h1>     <i class="fa-brands fa-react">
 
-<div className="darsad3"></div>
+<div className="darsad"></div>
 
 </i></div>
 
