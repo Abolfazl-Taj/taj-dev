@@ -13,7 +13,19 @@
 
 .links{
     font-family: 'Young Serif', serif;
-    @apply font-bold mx-[1rem] p-[0.25rem]
+    @apply font-bold mx-[1rem] p-[0.25rem] relative rounded
+}
+.links::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    scale: 0;
+    transition: all 0.5s;
+    @apply w-full h-[4px] bg-[#111] rounded
+}
+.links:hover::after{
+    scale: 1;
 }
 .active{
     font-family: 'Kanit', sans-serif;

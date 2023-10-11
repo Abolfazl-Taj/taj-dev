@@ -31,12 +31,44 @@
  @apply    flex justify-center items-center rounded-full w-[100px] h-[100px] shadow-2xl shadow-[#222] bg-[#111] text-[#555];
 }
 
-.darsad{
+.darsad1{
     position: absolute;
-    animation:  root 3s infinite  linear ;
+    animation:  root 10s infinite  linear ;
   @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
 }
-.darsad::after{
+.darsad1::after{
+    content: "";
+    position: absolute;
+    @apply w-[40px] h-[40px] bg-[#555] rounded-full 
+}
+.darsad2{
+    position: absolute;
+    animation:  root 7s infinite  linear ;
+  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
+}
+.darsad2::after{
+    content: "";
+    position: absolute;
+    @apply w-[40px] h-[40px] bg-[#555] rounded-full 
+}
+
+.darsad3{
+    position: absolute;
+    animation:  root 5s infinite  linear ;
+  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
+}
+.darsad3::after{
+    content: "";
+    position: absolute;
+    @apply w-[40px] h-[40px] bg-[#555] rounded-full 
+}
+
+.darsad4{
+    position: absolute;
+    animation:  root 2s infinite  linear ;
+  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
+}
+.darsad4::after{
     content: "";
     position: absolute;
     @apply w-[40px] h-[40px] bg-[#555] rounded-full 
@@ -44,15 +76,5 @@
 
 
 
-.darsad3{
-    position: absolute;
-    animation:  root 2s infinite  linear ;
-  @apply w-[200px] h-[200px] rounded-full border-[16px] border-[#111]
-}
-.darsad3::after{
-    content: "";
-    position: absolute;
-    @apply w-[40px] h-[40px] bg-blue-500 rounded-full 
-}
 
 

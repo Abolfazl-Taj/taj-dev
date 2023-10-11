@@ -7,6 +7,7 @@ function Nav(){
           <NavLink to='/Interdouce' className="links">Intrdouce </NavLink>
           <NavLink to='/Contact' className="links">Contact</NavLink>
           <NavLink to='/Skills' className="links">Skills</NavLink>
+          <NavLink to='/Projects' className="links">Projects</NavLink>
 
         </div>
     )
