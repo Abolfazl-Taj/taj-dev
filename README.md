@@ -20,7 +20,7 @@ Property :
 
 For Start:
 <div style="backgroun-color:#111 ; color:"#ffff"> 
-<b> npm start </b>
+<b> npm i </b>
 </div>
 
 
