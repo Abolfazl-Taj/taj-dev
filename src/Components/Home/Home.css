@@ -1,15 +1,22 @@
 .home{
     background: url(../../Assets/Pic/BlackWhole.jpg);
-    @apply w-full h-[629.2px] flex justify-center;
+    @apply w-full h-[629.2px] flex justify-center  max-[320px]:h-auto ;
     background-blend-mode: lighten;
 }
 .midle{
- @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-around items-center rounded;
+ @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-around items-center rounded
+   max-[320px]:flex-col  max-[320px]:w-full  max-[320px]:h-auto   max-[320px]:mr-3    max-[320px]:mt-0 
+   max-[768px]:flex-col            ;
  backdrop-filter: blur(16px) saturate(180%);
  background-color: rgba(0, 0, 0, 0.45);
 
  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .me{
-    @apply font-bold font-serif text-[30px] bg-[#00000069] p-1 rounded border shadow-2xl shadow-[#fff] w-[343px] h-[55px];
+    @apply font-bold font-serif text-[30px] bg-[#00000069] p-1 rounded border shadow-2xl shadow-[#fff] w-[343px] h-[55px] 
+     max-[320px]:w-3/4  max-[320px]:h-auto    max-[320px]:text-[20px];
+}
+.HamMenu{
+  z-index:5000;
+  @apply   max-[320px]:block max-[320px]:w-full   hidden max-[320px]:text-zinc-500;
 }

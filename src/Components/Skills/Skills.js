@@ -1,12 +1,25 @@
 import './Skills.css';
 import Nav from '../NavBar/Nav';
+import { useState } from 'react';
 function Skills(){
+    let  [navbar , setNavbar] = useState(false)
+    const ClickHandeler = ()=>{
+        if(navbar === false){
+            setNavbar(true)
+        }
+        else{
+            setNavbar(false)
+        }
+     }
     return(
         <>
-      <Nav></Nav>
+        <Nav navbar={navbar}></Nav>
          <div className="Skills" data-aos="zoom-in"   data-aos-duration="500"  >
-            <div className="midle">
-
+            <div className="midlam">
+            <button className="HamMenu" onClick={ClickHandeler} >
+            <i class="fa-solid fa-bars" ></i>
+            </button>
+            
 <div className="skil">  <h1 className="skill-header">100%</h1>            <i class="fa-brands fa-html5">
 
 <div className="darsad1"></div>

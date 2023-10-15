@@ -3,8 +3,8 @@
     @apply w-full h-[629.2px] flex justify-center;
     background-blend-mode: lighten;
 }
-.midlam{
- @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-center items-center rounded;
+.midlami{
+ @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-center items-center rounded ;
  backdrop-filter: blur(16px) saturate(180%);
  background-color: rgba(0, 0, 0, 0.45);
  border: 1px solid rgba(255, 255, 255, 0.125);

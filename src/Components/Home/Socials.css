@@ -1,3 +1,7 @@
+.socials{
+  @apply relative 
+    max-[320px]:flex  max-[320px]:w-full  max-[320px]:justify-center  max-[768px]:flex
+}
 .Btn {
     width: 45px;
     height: 45px;
@@ -7,11 +11,11 @@
     border: none;
     background-color: transparent;
     position: relative;
-    /* overflow: hidden; */
+     overflow: hidden;
     border-radius: 7px;
     cursor: pointer;
     transition: all .3s;
-    @apply my-[25px];
+    @apply my-[25px]  max-[320px]:mx-1 max-[768px]:mx-2  ;
   }
   
   .svgContainer {
