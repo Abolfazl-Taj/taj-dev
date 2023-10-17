@@ -6,10 +6,10 @@
 .midle{
  @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-around items-center rounded
    max-[320px]:flex-col  max-[320px]:w-full  max-[320px]:h-auto   max-[320px]:mr-3    max-[320px]:mt-0 
-   max-[768px]:flex-col            ;
+   max-[768px]:flex-col ;
  backdrop-filter: blur(16px) saturate(180%);
  background-color: rgba(0, 0, 0, 0.45);
-
+ transition: all 0.5s;
  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .me{
@@ -19,4 +19,15 @@
 .HamMenu{
   z-index:5000;
   @apply   max-[320px]:block max-[320px]:w-full   hidden max-[320px]:text-zinc-500;
+}
+.DarKModeBtn{
+  @apply fixed bg-[#111] w-[30px] h-[30px] rounded-full;
+  left: 50%;
+  top: 55px;
+  z-index: 9 !important;
+}
+.darker{
+  background-color: rgba(255, 255, 255, 0.45) !important;
+  color: #111;
+  border: 1px solid rgb(0, 0, 0);
 }

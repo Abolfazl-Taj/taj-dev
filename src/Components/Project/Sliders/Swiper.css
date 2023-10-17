@@ -16,3 +16,9 @@ SwiperSlide{
 .Sliders img{
     filter: grayscale(100%);
 }
+.dark-project .Slider-Img{
+    @apply bg-[#fff]
+}
+.dark-project .Slider-Head{
+    @apply text-[#555] bg-[#AFAFAF]
+}

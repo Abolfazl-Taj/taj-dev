@@ -1,8 +1,8 @@
 import './Contact.css';
-function ContactList({img   , des}){
+function ContactList({img   , des , darkMode}){
     return(
-        <div className="contact">
-        <img src={img} alt="" className="contact-img" />
+        <div className={darkMode === true ? "contact darker" : "contact"}>
+        <img src={img} alt="" className={darkMode === true ? "contact-img darker" : "contact-img"} />
         <h1 className="contact-des">{des}</h1>
      </div>
     )

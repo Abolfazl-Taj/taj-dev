@@ -7,5 +7,9 @@
  @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-center items-center rounded ;
  backdrop-filter: blur(16px) saturate(180%);
  background-color: rgba(0, 0, 0, 0.45);
+ transition: all 0.5s;
  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.dark-project{
+ @apply bg-[#666]   text-[#101010]
 }

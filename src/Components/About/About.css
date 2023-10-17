@@ -14,6 +14,7 @@
  max-[320px]:flex-col    max-[320px]:w-full max-[320px]:h-auto  max-[320px]:justify-start ;
  backdrop-filter: blur(16px) saturate(180%);
  background-color: rgba(0, 0, 0, 0.45);
+ transition: all 0.5s;
  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .about-des{
@@ -21,7 +22,7 @@
  @apply w-1/2 h-[420px] text-justify text-[20px]  text-[#c2c2c2] bg-[#c2c2c27c] rounded p-1 mx-[10px]  border-double	border-[32px] border-[#0000008d]
   max-[320px]:text-[16px] max-[320px]:w-full max-[320px]:leading-[15px] max-[320px]:h-auto
   max-[768px]:border-none max-[768px]:text-[17px] max-[768px]:leading-[10px] max-[768px]:p-0 max-[768px]:mx-[5px]
-  max-[1024px]:text-[18px] max-[1024px]:h-auto max-[1024px]:border-none
+  max-[1024px]:text-[18px] max-[1024px]:h-auto max-[1024px]:border-none 
   max-[1280px]:border-none;
  line-height: 30px;
 }
@@ -32,4 +33,7 @@
 }
 .about-des h1{
     @apply mx-[25px] my-[1rem] max-[320px]:mx-[5px] max-[320px]:my-[0.5rem]
+}
+.dark-des{
+    @apply text-[#111]
 }

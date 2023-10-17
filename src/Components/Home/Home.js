@@ -4,7 +4,16 @@ import './Home.css';
 import { useState } from 'react';
 import Socials from './Socials'
 function Home(){
+    let [darkMode , setDarkMode] = useState(false)
+    const DarkModeHandeler = ()=>{
+        if(darkMode === true){
+            setDarkMode(false)
+        }else{
+            setDarkMode(true)
+        }
+    }
     let  [navbar , setNavbar] = useState(false)
+
      const ClickHandeler = ()=>{
         if(navbar === false){
             setNavbar(true)
@@ -28,7 +37,7 @@ function Home(){
         <>
         <Nav navbar={navbar}></Nav>
         <div className="home"   data-aos="zoom-in"   data-aos-duration="750">
-         <div className="midle">
+         <div className={darkMode === true ? "midle darker" : "midle"}>
          <button className="HamMenu" onClick={ClickHandeler} >
             <i class="fa-solid fa-bars" ></i>
             </button>
@@ -51,6 +60,16 @@ function Home(){
 
 
          </div>
+         <button className='DarKModeBtn' onClick={DarkModeHandeler}>
+            {darkMode === false && (
+            <i class="fa-solid fa-sun"></i>
+            )}
+            {darkMode === true && (
+                <i class="fa-solid fa-moon"></i>
+            )}
+            
+         
+         </button>
 
 
 

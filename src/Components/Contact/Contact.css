@@ -9,6 +9,7 @@
  backdrop-filter: blur(16px) saturate(180%);
  background-color: rgba(0, 0, 0, 0.45);
  border: 1px solid rgba(255, 255, 255, 0.125);
+ transition: all 0.5s
 }
 
 
@@ -26,4 +27,7 @@
 .contact-des{
     @apply font-sans font-black text-[25px] max-[320px]:text-[16px] max-[768px]:text-[16px] max-[768px]:text-center
 
+}
+.darker-Count{
+    @apply text-[#fff];
 }

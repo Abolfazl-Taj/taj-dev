@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './Swiper.css';
-function Slider () {
+function Slider ({darkMode}) {
   return (
     <Swiper 
       // install Swiper 
@@ -42,7 +42,7 @@ function Slider () {
 
     >
       <SwiperSlide>
-        <div className='Sliders'> 
+        <div className={darkMode === true ? "Sliders dark-project" : "Sliders"}> 
         <img src={Code} alt="Code" className='Slider-Img' />
         <h1 className="Slider-Head">
             Building Some Examples
@@ -50,7 +50,7 @@ function Slider () {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='Sliders'> 
+        <div className={darkMode === true ? "Sliders dark-project" : "Sliders"}> 
         <img src={Zen} alt="Code" className='Slider-Img' />
         <h1 className="Slider-Head">
             Extending My English Skills
@@ -59,7 +59,7 @@ function Slider () {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='Sliders'> 
+        <div className={darkMode === true ? "Sliders dark-project" : "Sliders"}> 
         <img src={English} alt="Code" className='Slider-Img' />
         <h1 className="Slider-Head">
         Learning ReactJs
@@ -68,7 +68,7 @@ function Slider () {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='Sliders'> 
+        <div className={darkMode === true ? "Sliders dark-project" : "Sliders"}> 
         <img src={ReactL} alt="Code" className='Slider-Img' />
         <h1 className="Slider-Head">
         Relaxing In Zen Mode

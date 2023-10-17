@@ -6,6 +6,14 @@ import loc from "../../Assets/Pic/loc.png"
 import { useState } from 'react';
 import Nav from '../NavBar/Nav';
 function Contact(){
+    let [darkMode , setDarkMode] = useState(false)
+    const DarkModeHandeler = ()=>{
+        if(darkMode === true){
+            setDarkMode(false)
+        }else{
+            setDarkMode(true)
+        }
+    }
     let  [navbar , setNavbar] = useState(false)
     const ClickHandeler = ()=>{
         if(navbar === false){
@@ -24,14 +32,14 @@ function Contact(){
         <>
         <Nav navbar={navbar}></Nav>
         <div className="Contact" data-aos="zoom-in"   data-aos-duration="500">
-            <div className="midle">
+            <div className={darkMode === true ? "midle darker" : "midle"}>
             <button className="HamMenu" onClick={ClickHandeler} >
             <i class="fa-solid fa-bars" ></i>
             </button>
-                <div className="contact-keeper">
+                <div className={darkMode === true ? "contact-keeper darker-Count" : "contact-keeper"}>
 
                  {
-                 Contacts.map(Contact => <ContactList key={Contact.id}  {...Contact} ></ContactList>)
+                 Contacts.map(Contact => <ContactList key={Contact.id} darkMode={darkMode}  {...Contact} ></ContactList>)
                  }
 
 
@@ -41,6 +49,16 @@ function Contact(){
 
                  </div>
             </div>
+            <button className='DarKModeBtn' onClick={DarkModeHandeler}>
+            {darkMode === false && (
+            <i class="fa-solid fa-sun"></i>
+            )}
+            {darkMode === true && (
+                <i class="fa-solid fa-moon"></i>
+            )}
+            
+         
+         </button>
         </div>
         </>
     )

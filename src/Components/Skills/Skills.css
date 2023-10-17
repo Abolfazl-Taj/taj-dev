@@ -9,9 +9,10 @@
 .midlam{
     position: relative;
  @apply w-[95%] h-[500px] mt-[4.5rem] flex justify-around items-center rounded max-[320px]:h-auto max-[320px]:flex-col max-[320px]:w-full max-[320px]:items-center 
- max-[320px]:justify-start  max-[768px]:justify-center max-[768px]:w-full    ;
+ max-[320px]:justify-start  max-[768px]:justify-center max-[768px]:w-full  relative  ;
  backdrop-filter: blur(16px) saturate(180%);
  background-color: rgba(0, 0, 0, 0.45);
+ transition: all 0.5s;
  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .skil{
@@ -76,6 +77,16 @@
     content: "";
     position: absolute;
     @apply w-[40px] h-[40px] bg-[#555] rounded-full max-[320px]:w-[15px] max-[320px]:h-[15px]  max-[768px]:w-[18px] max-[768px]:h-[18px]
+}
+.dark-Skill{
+    background-color: rgba(255, 255, 255, 0.45) !important;
+    color: #222;
+    @apply border-[#A5A5A5]
+}
+.DarkmodeB i{
+    @apply  text-[20px] w-[20px] h-[20px] absolute ;
+    right:50%;
+    top:65px;
 }
 
 
