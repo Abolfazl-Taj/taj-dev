@@ -16,10 +16,12 @@ Property :
 
 4️⃣ | Spa (Single Page App),
 
-5️⃣ | NeoMorphism
+5️⃣ | NeoMorphism,
+
+6️⃣ | DarkMode
 
 For Start:
-<div style="backgroun-color:#111 ; color:"#ffff"> 
+<div style="backgroun-color:#111 ; color:"#111"> 
 <b> npm i </b>
 </div>
 
