@@ -23,7 +23,7 @@ function Skills(){
         <>
         <Nav navbar={navbar}></Nav>
          <div className="Skills" data-aos="zoom-in"   data-aos-duration="500"  >
-            <div className={darkMode === true ? "midlam dark-Skill" : "midlam"}>
+            <div className={darkMode === true ? "midelami dark-Skill" : "midelami"}>
             <button className="HamMenu" onClick={ClickHandeler} >
             <i class="fa-solid fa-bars" ></i>
             </button>

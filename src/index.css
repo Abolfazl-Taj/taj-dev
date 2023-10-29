@@ -1,4 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    overflow-x: hidden;
+}
 
+::-webkit-scrollbar{
+    @apply bg-[#1111114b] rounded;
+    backdrop-filter: blur(16px) saturate(180%);
+    width: 5px; 
+}
+::-webkit-scrollbar-thumb{
+    @apply bg-[#1f1f1f] rounded
+}
+::-webkit-scrollbar-track{
+    @apply bg-[#ffffff86] rounded
+}
+::-webkit-scrollbar-track-piece{
+ box-shadow: inset 1px 1px 10px #666;
+}
