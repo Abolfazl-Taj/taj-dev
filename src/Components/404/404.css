@@ -1,8 +1,14 @@
 .notfound{
- @apply w-[100%] flex justify-center items-center flex-col
+ @apply  flex items-center flex-col flex-wrap
+}
+.notfound img{
+  @apply w-1/3
 }
 .not-header{
-    @apply bg-[#111] text-[#fff] p-2 rounded
+    @apply bg-[#111] text-[#fff] p-2 rounded z-10
+}
+.Not-Found{
+  @apply w-full flex flex-col items-center
 }
 .notb{
   @apply bg-[#fff] text-[#111] rounded  my-[0.5rem] w-full text-center text-[20px] fixed;
