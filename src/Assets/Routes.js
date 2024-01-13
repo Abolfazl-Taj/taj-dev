@@ -7,10 +7,10 @@ import NotFound from '../Components/404/404';
 
 
 export let  Masir = [
-    {path:'taj-dev/' , element:<Home></Home>},
-    {path:'taj-dev/Interdouce' , element:<About></About>},
-    {path:'taj-dev/Contact' , element:<Contact></Contact>},
-    {path:'taj-dev/Skills' , element:<Skills></Skills>},
-    {path:'taj-dev/Projects' , element:<Project></Project>},
-    {path:'taj-dev/*' , element:<NotFound></NotFound>},
+    {path:'/' , element:<Home></Home>},
+    {path:'/Interdouce' , element:<About></About>},
+    {path:'/Contact' , element:<Contact></Contact>},
+    {path:'/Skills' , element:<Skills></Skills>},
+    {path:'/Projects' , element:<Project></Project>},
+    {path:'/*' , element:<NotFound></NotFound>},
 ]
