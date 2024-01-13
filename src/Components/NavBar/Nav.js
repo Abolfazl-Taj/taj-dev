@@ -14,11 +14,11 @@ function Nav({navbar}){
           {isopen ===true && <button className='MenuClose' onClick={clickhandeler}> <i class="fa-solid fa-xmark"></i> </button>}
           
           
-          <NavLink to='/' className="links">Home</NavLink>
-          <NavLink to='/Interdouce' className="links">Intrdouce </NavLink>
-          <NavLink to='/Contact' className="links">Contact</NavLink>
-          <NavLink to='/Skills' className="links">Skills</NavLink>
-          <NavLink to='/Projects' className="links">Projects</NavLink>
+          <NavLink to='taj-dev/' className="links">Home</NavLink>
+          <NavLink to='taj-dev/Interdouce' className="links">Intrdouce </NavLink>
+          <NavLink to='taj-dev/Contact' className="links">Contact</NavLink>
+          <NavLink to='taj-dev/Skills' className="links">Skills</NavLink>
+          <NavLink to='taj-dev/Projects' className="links">Projects</NavLink>
 
         </div>
     )

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ca5e4cc.css",
-    "main.js": "/static/js/main.9abe329b.js",
+    "main.js": "/static/js/main.02e958f6.js",
     "static/media/BlackWhole.jpg": "/static/media/BlackWhole.45812bf5122309d2c81e.jpg",
     "static/media/Lalezar-Regular.ttf": "/static/media/Lalezar-Regular.4cbab4c9f26cf13014c6.ttf",
     "static/media/Mypic.jpg": "/static/media/Mypic.a9e5a0d2e3014d050f8a.jpg",
@@ -15,10 +15,10 @@
     "static/media/4.png": "/static/media/4.de5ddc3cc73bfbb288c3.png",
     "index.html": "/index.html",
     "main.0ca5e4cc.css.map": "/static/css/main.0ca5e4cc.css.map",
-    "main.9abe329b.js.map": "/static/js/main.9abe329b.js.map"
+    "main.02e958f6.js.map": "/static/js/main.02e958f6.js.map"
   },
   "entrypoints": [
     "static/css/main.0ca5e4cc.css",
-    "static/js/main.9abe329b.js"
+    "static/js/main.02e958f6.js"
   ]
 }
