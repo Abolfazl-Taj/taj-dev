@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ca5e4cc.css",
+    "main.js": "/static/js/main.9abe329b.js",
+    "static/media/BlackWhole.jpg": "/static/media/BlackWhole.45812bf5122309d2c81e.jpg",
+    "static/media/Lalezar-Regular.ttf": "/static/media/Lalezar-Regular.4cbab4c9f26cf13014c6.ttf",
+    "static/media/Mypic.jpg": "/static/media/Mypic.a9e5a0d2e3014d050f8a.jpg",
+    "static/media/404.png": "/static/media/404.a68fea86e32e72c9859a.png",
+    "static/media/loc.png": "/static/media/loc.a94193ab072a630ab727.png",
+    "static/media/1.png": "/static/media/1.7fc142135b0ab74b0475.png",
+    "static/media/3.png": "/static/media/3.5f968dbdbd97be622584.png",
+    "static/media/Email.png": "/static/media/Email.db8c9b58941079a8cd5c.png",
+    "static/media/Phone.png": "/static/media/Phone.31728b4dfc366cf38a95.png",
+    "static/media/2.png": "/static/media/2.34f6284b82b7b3d17968.png",
+    "static/media/4.png": "/static/media/4.de5ddc3cc73bfbb288c3.png",
+    "index.html": "/index.html",
+    "main.0ca5e4cc.css.map": "/static/css/main.0ca5e4cc.css.map",
+    "main.9abe329b.js.map": "/static/js/main.9abe329b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ca5e4cc.css",
+    "static/js/main.9abe329b.js"
+  ]
+}
