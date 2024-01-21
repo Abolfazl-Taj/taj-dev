@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/taj-dev/static/css/main.728c2ebb.css",
-    "main.js": "/taj-dev/static/js/main.5b243193.js",
+    "main.css": "/taj-dev/static/css/main.a2bf15b4.css",
+    "main.js": "/taj-dev/static/js/main.189def44.js",
     "static/media/BlackWhole.jpg": "/taj-dev/static/media/BlackWhole.45812bf5122309d2c81e.jpg",
     "static/media/Lalezar-Regular.ttf": "/taj-dev/static/media/Lalezar-Regular.4cbab4c9f26cf13014c6.ttf",
     "static/media/Mypic.jpg": "/taj-dev/static/media/Mypic.a9e5a0d2e3014d050f8a.jpg",
@@ -14,11 +14,11 @@
     "static/media/2.png": "/taj-dev/static/media/2.34f6284b82b7b3d17968.png",
     "static/media/4.png": "/taj-dev/static/media/4.de5ddc3cc73bfbb288c3.png",
     "index.html": "/taj-dev/index.html",
-    "main.728c2ebb.css.map": "/taj-dev/static/css/main.728c2ebb.css.map",
-    "main.5b243193.js.map": "/taj-dev/static/js/main.5b243193.js.map"
+    "main.a2bf15b4.css.map": "/taj-dev/static/css/main.a2bf15b4.css.map",
+    "main.189def44.js.map": "/taj-dev/static/js/main.189def44.js.map"
   },
   "entrypoints": [
-    "static/css/main.728c2ebb.css",
-    "static/js/main.5b243193.js"
+    "static/css/main.a2bf15b4.css",
+    "static/js/main.189def44.js"
   ]
 }
