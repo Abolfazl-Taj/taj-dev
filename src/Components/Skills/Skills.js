@@ -21,7 +21,7 @@ function Skills(){
      }
     return(
         <>
-        <Nav navbar={navbar}></Nav>
+        <Nav darkMode={darkMode} navbar={navbar}></Nav>
          <div className="Skills" data-aos="zoom-in"   data-aos-duration="500"  >
             <div className={darkMode === true ? "midelami dark-Skill" : "midelami"}>
             <button className="HamMenu" onClick={ClickHandeler} >

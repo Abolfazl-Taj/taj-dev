@@ -22,7 +22,7 @@ function About(){
      }
     return(
         <>
-        <Nav navbar={navbar}></Nav>
+        <Nav darkMode={darkMode} navbar={navbar}></Nav>
         <div className='About'   data-aos="zoom-in"   data-aos-duration="500"> 
             <div className={darkMode === true ? "midleam darker" : "midleam"}>
             <button className="HamMenu" onClick={ClickHandeler} >

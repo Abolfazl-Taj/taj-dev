@@ -35,7 +35,7 @@ function Home(){
     return(
    
         <>
-        <Nav navbar={navbar}></Nav>
+        <Nav  darkMode={darkMode} navbar={navbar}></Nav>
         <div className="home"   data-aos="zoom-in"   data-aos-duration="750">
          <div className={darkMode === true ? "midle darker" : "midle"}>
          <button className="HamMenu" onClick={ClickHandeler} >

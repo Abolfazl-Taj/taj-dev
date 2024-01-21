@@ -3,9 +3,6 @@ import './Nav.css';
 import { NavLink } from 'react-router-dom';
 function Nav({navbar , darkMode}){
   let [isopen , setIsopen] = useState(false)
-   useEffect(()=>{
-      console.log(1)
-   })
   useEffect(()=>{
     setIsopen(navbar)
   } , [navbar])

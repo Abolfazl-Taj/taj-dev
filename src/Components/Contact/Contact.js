@@ -30,7 +30,7 @@ function Contact(){
     ]
     return(
         <>
-        <Nav navbar={navbar}></Nav>
+        <Nav darkMode={darkMode} navbar={navbar}></Nav>
         <div className="Contact" data-aos="zoom-in"   data-aos-duration="500">
             <div className={darkMode === true ? "midle darker" : "midle"}>
             <button className="HamMenu" onClick={ClickHandeler} >

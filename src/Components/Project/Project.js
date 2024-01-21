@@ -22,7 +22,7 @@ function Project (){
    }
   return(
       <>
-        <Nav navbar={navbar}></Nav>
+        <Nav darkMode={darkMode} navbar={navbar}></Nav>
         <button className="HamMenu" onClick={ClickHandeler} >
             <i class="fa-solid fa-bars" ></i>
             </button>
