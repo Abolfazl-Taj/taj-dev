@@ -44,3 +44,9 @@
 .MenuClose{
     @apply mb-[1rem] text-[25px]
 }
+.dark-nav{
+    @apply bg-[#fff]/50 text-[#333]
+}
+.dark-nav .active{
+    @apply text-[#111] border-t border-[#0d0909] 
+}
