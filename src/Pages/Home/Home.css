@@ -1,0 +1,25 @@
+.home{
+    background: url(../../Assets/Pic/BlackWhole.jpg);
+    background-blend-mode: lighten;
+    @apply flex justify-center
+}
+
+.me{
+    @apply font-bold font-serif text-[30px] bg-[#00000069] p-1 rounded border border-red-950 px-4 shadow-2xl  w-[343px] h-[55px] 
+     max-[320px]:w-3/4  max-[320px]:h-auto    max-[320px]:text-[20px];
+}
+.HamMenu{
+  z-index:5000;
+  @apply   max-[320px]:block max-[320px]:w-full   hidden max-[320px]:text-zinc-500;
+}
+.DarKModeBtn{
+  @apply fixed bg-[#111] w-[30px] h-[30px] rounded-full;
+  left: 50%;
+  top: 55px;
+  z-index: 9 !important;
+}
+.darker{
+  background-color: rgba(255, 255, 255, 0.45) !important;
+  color: #111;
+  border: 1px solid rgb(0, 0, 0);
+}

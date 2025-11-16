@@ -19,3 +19,7 @@ body{
 ::-webkit-scrollbar-track-piece{
  box-shadow: inset 1px 1px 10px #666;
 }
+/* /////////////////Young Serif ////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+/* ///////////////// Kanti ////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap');

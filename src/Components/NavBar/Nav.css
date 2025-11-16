@@ -3,14 +3,8 @@
 /* /////////////////Young Serif ////////////// */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&display=swap');
 .nav{
- @apply w-full flex items-center rounded p-2 text-[#a1a1a1] mt-[0.25rem] fixed  mx-[20px] 
- 
- max-[320px]:scale-0 
- 
- ;
+ @apply w-full flex items-center  p-2 text-[#a1a1a1] bg-[#111]/20 rounded-full;
  backdrop-filter: blur(12px) saturate(55%);
- background-color: rgba(61, 61, 61, 0.42);
- border-radius: 12px;
  border: 1px solid rgba(255, 255, 255, 0.125);
  z-index:5;
  transition:all 0.5s
@@ -27,14 +21,14 @@
     left: 0;
     scale: 0;
     transition: all 0.5s;
-    @apply w-full h-[4px] bg-[#111] rounded
+    @apply w-full h-[4px] bg-red-900 rounded
 }
 .links:hover::after{
     scale: 1;
 }
 .active{
     font-family: 'Kanit', sans-serif;
-    @apply text-[#080808] font-black border-t border-[#ff6b6b]  max-[320px]:border-t  max-[320px]:border-[#111]  max-[320px]:rounded-none ;
+    @apply  font-black border-t border-red-900 text-white  max-[320px]:border-t  max-[320px]:border-[#111]  max-[320px]:rounded-none ;
     scale: 1.5;
 }
 .open{
